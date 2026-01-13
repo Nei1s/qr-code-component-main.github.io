@@ -14,7 +14,7 @@ body{
     border-radius: 15px;
     text-align: center;
     height: 32rem;
-    padding: 20px 20px;
+    padding: 1.5rem 1.5rem;
 }
 .card-container > .card_two > h1{
     color: hsl(218, 44%, 22%);
