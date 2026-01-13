@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(213, 225, 239);
+    font-family: 'Outfit', Arial, sans-serif;
+}
+.card-container{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, 408px);
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+}
+.card-container > .card_two{
+    grid-row: 2;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    height: 480px;
+    padding: 20px 20px;
+}
+img{
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+}
